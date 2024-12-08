@@ -1,0 +1,31 @@
+\documentclass[12pt,openany,oneside]{book}   
+\usepackage[T1]{fontenc}
+\usepackage{hyperref}
+\usepackage{misc/options}
+\usepackage{lipsum}
+\setlength{\parindent}{0pt}
+
+%%%%%%%%%% JOURNAL INFORMATION %%%%%%%%%%
+\newcommand{\authorname}{John Smith}
+\newcommand{\booktitle}{Research Log}
+\title{\booktitle}
+\author{\authorname}
+
+
+\begin{document}
+
+\frontmatter
+\input{frontmatter/titlepage}
+
+
+\mainmatter
+\pagestyle{fancy}
+
+%start of entries 
+%Format: yy/mm/dd
+
+\input{content/241208}
+%end of entries 
+% DO NOT REMOVE ABOVE LINE
+
+\end{document}
