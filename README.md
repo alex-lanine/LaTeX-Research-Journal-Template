@@ -1,6 +1,6 @@
 # LaTeX-Research-Journal-Template
 
-A clean and customizable $\LaTeX$ template for maintaining a research log. 
+A customizable $\LaTeX$ template for maintaining a research log. 
 This repository includes a script for automating daily entries, **desinged specifically for Visual Studio Code (VS Code)**.
 
 ## Prerequisites
